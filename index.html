@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aritmeticke operacije 1</title>
+</head>
+<body>
+    <script>
+       let broj1 =  prompt("Unesite broj 1:")
+       let operacija =  prompt("Unesite aritmeticku operaciju: \n(Sabiranje +) \n(Oduzimanje -)\n(Mnozenje *)\n(Deljenje /)  ")
+       let broj2 =  prompt("Unesite broj 2:")
+       
+    
+        broj1 = Number(broj1)
+        broj2 = Number(broj2)
+
+        if(operacija == "+"){
+            alert("Rezultat je: " + (broj1 + broj2))
+        }else if(operacija == "-"){
+            alert("Rezultat je: " + (broj1 - broj2))
+        }else if(operacija == "*"){
+            alert("Rezultat je: " + (broj1 * broj2))
+        }else if(operacija == "/"){
+            alert("Rezultat je: " + (broj1 / broj2))
+        }else{
+            alert("Niste uneli adekvatnu aritmeticku operaciju!")
+        }
+       
+    </script>
+</html> 
